@@ -1,0 +1,92 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="index, follow"><title>22222 • Hi Wuxin</title><meta name="description" content="22222 - Hi Wuxin"><link rel="icon" href="/favicon.svg"><link rel="stylesheet" href="https://unpkg.com/nanoreset@3.0.1/nanoreset.min.css"><link rel="stylesheet" href="/css/theme.css"><link rel="search" type="application/opensearchdescription+xml" href="/atom.xml" title="Hi Wuxin"><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Hi Wuxin" type="application/atom+xml">
+</head><body><div class="wrap" id="barba-wrapper"><header><h1 class="branding"><a href="/" title="Hi Wuxin"><img class="logo-image" src="/favicon.svg" alt="logo"></a></h1><ul class="nav nav-list"><li class="nav-list-item"><a class="nav-list-link no-barba" href="/" target="_self">HOME</a></li><li class="nav-list-item"><a class="nav-list-link no-barba" href="/about" target="_self">ABOUT</a></li><li class="nav-list-item"><a class="nav-list-link no-barba" href="/archives" target="_self">ARCHIVES</a></li><li class="nav-list-item"></ul></header><div class="barba-container"><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">22222</h1><div class="post-info"><a></a>2023-09-26</div><div class="post-content"><h1 id="Markdown常用语法大全（简单清晰）"><a href="#Markdown常用语法大全（简单清晰）" class="headerlink" title="Markdown常用语法大全（简单清晰）"></a>Markdown常用语法大全（简单清晰）</h1><h1 id="1-标题（这是一级标题）"><a href="#1-标题（这是一级标题）" class="headerlink" title="1.标题（这是一级标题）"></a>1.标题（这是一级标题）</h1><p>格式如下：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">shell</span><br><span class="line">复制代码# 一级标题</span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash"><span class="comment"># 二级标题</span></span></span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash"><span class="comment">## 三级标题</span></span></span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash"><span class="comment">### 四级标题</span></span></span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash"><span class="comment">#### 五级标题</span></span></span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash"><span class="comment">##### 六级标题</span></span>	</span><br></pre></td></tr></table></figure>
+
+<p>效果如下：</p>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">提示：使用#在一行的最前面，并且#后面需要跟一个空格。</span><br></pre></td></tr></table></figure>
+
+<h1 id="2-代码块"><a href="#2-代码块" class="headerlink" title="2.代码块"></a>2.代码块</h1><p><strong>方法1</strong><br>格式如下：</p>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">go</span></span><br><span class="line">复制代码<span class="string">`一行代码块`</span>(用一个反引号包起来）</span><br></pre></td></tr></table></figure>
+
+<p>效果如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">复制代码一行代码块</span><br></pre></td></tr></table></figure>
+
+<p><strong>方法2</strong><br>格式如下：</p>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">go</span></span><br><span class="line">复制代码<span class="string">``</span><span class="string">`</span></span><br><span class="line"><span class="string">	一行代码块（用三个反引号包起来）</span></span><br><span class="line"><span class="string">	二行代码块</span></span><br><span class="line"><span class="string">`</span><span class="string">``</span></span><br></pre></td></tr></table></figure>
+
+<p>效果如下：</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">markdown</span><br><span class="line">复制代码	一行代码块</span><br><span class="line"><span class="code">	二行代码块</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="3-字体"><a href="#3-字体" class="headerlink" title="3.字体"></a>3.字体</h1><p>格式如下：</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">markdown</span><br><span class="line">复制代码<span class="emphasis">*这是倾斜的文字*</span>（一个星号包围）</span><br><span class="line"><span class="strong">**这是加粗的文字**</span>（两个星号包围）</span><br><span class="line"><span class="strong">**<span class="emphasis">*这是斜体加粗的文字*</span>**</span>（三个个星号包围）</span><br><span class="line">~~这是加删除线的文字~~（两个波浪线包围）</span><br><span class="line">H~2~O is是液体。</span><br><span class="line">2^10^ 运算结果是 1024.</span><br></pre></td></tr></table></figure>
+
+<p><strong>效果如下：</strong></p>
+<p><em>这是倾斜的文字</em><br><strong>这是加粗的文字</strong><br><em><strong>这是斜体加粗的文字</strong></em><br><del>这是加删除线的文字</del><br>H<del>2</del>O is是液体。<br>2^10^ 运算结果是 1024.</p>
+<h1 id="4-文字上带链接"><a href="#4-文字上带链接" class="headerlink" title="4.文字上带链接"></a>4.文字上带链接</h1><p>格式如下：</p>
+<figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">less</span></span><br><span class="line">复制代码<span class="selector-attr">[百度]</span>(<span class="attribute">http</span>:<span class="comment">//baidu.com)</span></span><br></pre></td></tr></table></figure>
+
+<p>效果如下：<br><a href="https://link.juejin.cn/?target=http://baidu.com">百度</a></p>
+<h1 id="5-表格"><a href="#5-表格" class="headerlink" title="5.表格"></a>5.表格</h1><p>格式如下：</p>
+<figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">diff</span><br><span class="line">复制代码项目     | Value</span><br><span class="line"><span class="comment">-------- | -----（表示上方的是表头）</span></span><br><span class="line">电脑  | 1600</span><br><span class="line">手机  | 12</span><br><span class="line">导管  | 1</span><br></pre></td></tr></table></figure>
+
+<p>效果如下：</p>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>电脑</td>
+<td>1600</td>
+</tr>
+<tr>
+<td>手机</td>
+<td>12</td>
+</tr>
+<tr>
+<td>导管</td>
+<td>1</td>
+</tr>
+</tbody></table>
+<h1 id="6-列表"><a href="#6-列表" class="headerlink" title="6.列表"></a>6.列表</h1><h4 id="6-1无序列表"><a href="#6-1无序列表" class="headerlink" title="6.1无序列表"></a>6.1无序列表</h4><p>格式如下：（用‘-’放前面）</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">markdown</span><br><span class="line">复制代码- 银河</span><br><span class="line"><span class="bullet">  -</span> 地球</span><br><span class="line"><span class="bullet">    -</span> 中国</span><br></pre></td></tr></table></figure>
+
+<p>效果如下：</p>
+<ul>
+<li>银河<ul>
+<li>地球<ul>
+<li>中国</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="6-1有序列表"><a href="#6-1有序列表" class="headerlink" title="6.1有序列表"></a>6.1有序列表</h4><p>格式如下：</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">markdown</span><br><span class="line">复制代码1. 苹果</span><br><span class="line"><span class="bullet">2.</span> 香蕉</span><br><span class="line"><span class="bullet">3.</span> 菠萝</span><br></pre></td></tr></table></figure>
+
+<p>效果如下：</p>
+<ol>
+<li>苹果</li>
+<li>香蕉</li>
+<li>菠萝</li>
+</ol>
+<h1 id="7-分割线"><a href="#7-分割线" class="headerlink" title="7.分割线"></a>7.分割线</h1><p>三个或三个以上的 ‘-’ 或 ‘*’ 都可以 格式如下：</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">yaml</span></span><br><span class="line"><span class="string">复制代码***</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></table></figure>
+
+<p>效果如下：</p>
+<hr>
+<hr>
+<p>footer .copyright {<br>font-size: .8em;<br>border-top: 1px solid #eee;<br>text-align: center;<br>position: fixed;<br>bottom: 0;<br>left: 0;<br>width: 100%;<br>background-color: #f9f9f9;<br>padding: 1em 0; &#x2F;* 调整 padding *&#x2F;<br>color: #393e46;<br>font-weight: 300;<br>}<br>footer .copyright a:hover {<br>color: #393e46;<br>}</p>
+</div></article></div></main><footer><div class="paginator"><a class="prev" href="/2023/09/26/%E6%B2%83%E5%B0%94%E5%85%8B%E4%BB%A8%E7%BE%8E%E5%A5%B3%E5%9C%B0%E6%96%B9%203/">prev</a><a class="next" href="/2023/09/26/%E6%B2%83%E5%B0%94%E5%85%8B%E4%BB%A8%E7%BE%8E%E5%A5%B3%E5%9C%B0%E6%96%B9%E7%9A%84%E5%89%AF%E6%9C%AC/">next</a></div><div class="copyright"><p>&copy; 2016 - 2023 <a href="https://hiwuxin.github.io">Hi Wuxin</a><br>Powered by <a href="https://hexo.io/" rel="noreferrer" target="_blank">Hexo</a></p></div></footer></div></div><script>var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-XXXXXXXX-X']);
+_gaq.push(['_trackPageview']);
+
+(function () {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();</script><script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js"></script><script>document.addEventListener('DOMContentLoaded', function() {
+    Barba.Pjax.start()
+})</script></body></html>
